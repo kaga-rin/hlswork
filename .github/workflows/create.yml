@@ -15,5 +15,5 @@ jobs:
 
       - uses: mikeal/publish-to-github-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: $secrets.GH_TOKEN
           BRANCH_NAME: 'main'
